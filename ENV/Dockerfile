@@ -11,4 +11,4 @@ RUN yum install nginx -y
 ENV TRAINING="DEVOPS" \
     TRAINER="CHARANKUMAR" \
     DURATION="120HRS"
-CMD [ "nginx", "-g", "daemon off" ]
+CMD [ "nginx", "-g", "daemon off;" ]
